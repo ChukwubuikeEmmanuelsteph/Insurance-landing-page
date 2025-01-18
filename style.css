@@ -1,0 +1,87 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ @media screen and (max-width: 500px) {
+
+
+     .logo-container {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 1.5rem;
+     }
+
+     .desktop-image {
+         display: none;
+     }
+
+     .mobile-image {
+         width: 100%;
+     }
+
+     .humanzing {
+         /* position: relative; Helps with layering */
+         background-color: hsl(256, 26%, 20%);
+
+
+     }
+
+     .humanizing-section {
+         /* background-color: hsl(256, 26%, 20%); */
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 2rem 1rem;
+         /* top: 79%; */
+         
+         /* z-index: -1; */
+        }
+        
+        .text-container {
+            /* position: absolute;  */
+            /* top: 50%; */
+            z-index: 1;
+            text-align: center;
+            margin-top: -6rem;
+            /* margin-bottom: 30rem; */
+        }
+        
+        .text-container h2 {
+            font-size: 3rem;
+            color: hsl(0, 0%, 98%);
+            margin-bottom: 1.5rem;
+        }
+        
+        .text-container p {
+            font-size: 1.1rem;
+            line-height: 1.5;
+            color: hsl(273, 4%, 51%);
+            margin-bottom: 2rem;
+        }
+        
+        
+        .view-plans {
+            border: 1px solid hsl(0, 0%, 98%);
+            color: hsl(0, 0%, 98%);
+            text-decoration: none;
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            display: inline-block;
+            transition: background 0.3s;
+            position: relative;
+     }
+
+     .right-pattern  img{
+        /* width: 100%; */
+         position: absolute;
+         left: 65%;
+         /* bottom: 100%; */
+         /* top: 10%; */
+
+
+     }
+
+    }
