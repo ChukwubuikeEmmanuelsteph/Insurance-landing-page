@@ -71,17 +71,133 @@
             font-size: 1rem;
             display: inline-block;
             transition: background 0.3s;
-            position: relative;
+            /* position: relative; */
+     }
+     .insurance{
+        position: relative;
      }
 
      .right-pattern  img{
-        /* width: 100%; */
-         position: absolute;
-         left: 65%;
-         /* bottom: 100%; */
-         /* top: 10%; */
+        
+        position: absolute;
+         left: 67%;
+         
+         top:90%;
 
 
      }
-
+     .short-line{
+        width: 10rem;
+        height: 1px;
+        background-color:  hsl(273, 4%, 51%);;
+        margin: 10rem auto 0.4rem auto;
+     }
+     .difference{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-between; */
+        gap: 3rem;
+        margin-top: 3rem
+     }
+     .difference h2{
+        font-size: 3rem;
+     }
+     .activity{
+        text-align: center;
+     }
+     .activity-text{
+        padding: 1rem;
+        line-height: 1.6;
+     }
+     .activity-text h3{
+        padding: 1rem;
+        font-size: 1.5rem;
+     }
+     .work{
+        margin-bottom: 5rem;
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    
+        height: 80vh;
+        /* background-color: hsl(256, 26%, 20%); */
+        
+    }
+    .how-we-work{
+        background-color: hsl(256, 26%, 20%);   
+        text-align: center;
+        padding: 4rem;
+        position: relative;
+    }
+     .how-we-work h1 {
+        font-size: 2rem;
+        color: white;
+     }
+     .work-btn{
+        border: 1px solid hsl(0, 0%, 98%);
+        color: hsl(0, 0%, 98%);
+        text-decoration: none;
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+        display: inline-block;
+        margin-top: 3rem;
+     }
+     .work-pattern{
+        position: absolute;
+        top: 1%;
+        left: 45%;
+     }
+     .insure{
+        background-image: url(images/bg-pattern-footer-mobile.svg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        
+     } 
+     .insure-container{
+        margin-top: 4rem;
+        text-align: center;
+     }
+     .insure h3{
+        padding: 1.5rem;
+        font-size: 2rem;
+     }
+     .icon-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+     }
+     .long-line{
+      width: 21rem;
+      /* width: 10rem; */
+      height: 1px;
+      background-color:  hsl(273, 4%, 51%);
+      margin: 1.5rem auto 0.4rem auto;
+     }
+     footer{
+      height: 100vh;
+     }
+     .footer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 2rem;
+      padding: 2rem;
+      /* height: 100vh; */
+     }
+     .company h3{
+      padding: 2rem;
+      color: hsl(273, 4%, 51%);
+     }
+     .company ul{
+      list-style: none;
+      line-height: 1.7;
+      color:  hsl(270, 9%, 17%);
+     }
     }
