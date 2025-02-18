@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Insurance Page</title>
   <!--    GOGGLE FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -13,10 +15,34 @@
   <header>
     <div class="logo-container">
       <img src="images/logo.svg" alt="logo" />
+ 
 
-      <img src="images/icon-hamburger.svg" alt="" />
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <!-- We'll toggle between these two images -->
+        <img src="images/icon-hamburger.svg" alt="Open menu" class="hamburger-icon">
+        <img src="images/icon-close.svg" alt="Close menu" class="close-icon">
+    </button>
+      <!-- <img src="images/icon-hamburger.svg" class="hamburger" alt="" /> -->
+      <div class="links">
+        <ul>
+          <li>HOW WE WORK</li>
+          <li>BLOG</li>
+          <li>ACCOUNT</li>
+          <li>VIEW PLANS</li>
+        </ul>
+      </div>
+
     </div>
+    <nav class="mobile-nav">
+      <ul>
+          <li><a href="#">HOW WE WORK</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">ACCOUNT</a></li>
+          <li><a href="#" class="view-plans">VIEW PLANS</a></li>
+      </ul>
 
+      <img src="images/bg-pattern-mobile-nav.svg"  class="nav-image" alt="">
+  </nav>
     <!-- links-section -->
   </header>
   <!-- insurance - section -->
@@ -27,25 +53,30 @@
     </div>
     <div class="humanzing">
       <img src="images/bg-pattern-intro-left-mobile.svg" class="background-pattern" alt="">
+      <img src="images/bg-pattern-intro-left-desktop.svg" alt="" class="desktop-pattern">
       <div class="humanizing-section">
         <div class="text-container">
+          <div class="line"></div>
           <h2>Humanizing <br> your insurance.</h2>
-
+          
           <p>
             Get your life insurance coverage easier and <br>faster. We blend our expertise and <br> technology to help
             you find the plan that’s <br> right for you. Ensure you and your loved <br> ones are protected
           </p>
-
+          
           <a href="#" class="view-plans"> View Plans</a>
         </div>
       </div>
     </div>
+    <img src="images/bg-pattern-intro-right-desktop.svg" alt="" class="right-desktop-pattern">
     <div class="right-pattern">
       <img src="images/bg-pattern-intro-right-mobile.svg" alt="">
+
   </section>
   <div class="short-line"></div>
   </div>
   <section class="difference">
+    <div class="line"></div>
     <h2>We're different</h2>
     <!-- activity -->
     <div class="activity">
@@ -85,23 +116,29 @@
   <section class="work">
     <div class="how-we-work">
       <img src="images/bg-pattern-how-we-work-mobile.svg" class="work-pattern" alt="">
-      <h1> Find out more <br> about how we <br> work</h1>
+      <h1> Find out more <br class="break"> about how we <br> work</h1>
 
       <a href="#" class="work-btn">How We Work</a>
+      <img src="images/bg-pattern-how-we-work-desktop.svg" class="desktop-work-pattern" alt="">
     </div>
   </section>
+  <div class="footer-container">
   <section class="insure">
     <div class="insure-container">
    <h3> INSURE</h3>
    <div class="icon-container">
-    <img src="images/icon-facebook.svg" alt="">
-    <img src="images/icon-twitter.svg" alt="">
-    <img src="images/icon-pinterest.svg" alt="">
-     <img src="images/icon-instagram.svg" alt="">
+    <img src="images/icon-facebook.svg" alt=""class = "icons">
+    <img src="images/icon-twitter.svg" alt=""class = "icons">
+    <img src="images/icon-pinterest.svg" alt=""class = "icons">
+     <img src="images/icon-instagram.svg" alt=""class = "icons">
+
+     
 
     </div>
+    
    </div>
   </section>
+  <div class="longer-line"></div>
   <!-- long- line -->
    <div class="long-line"></div>
    <!-- fotter -->
@@ -149,6 +186,9 @@
       </div>
     </div>
     </footer>
+  </div>
+
+  <script src="main.js"> </script>
 </body>
 
 </html>
